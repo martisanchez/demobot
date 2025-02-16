@@ -1,0 +1,27 @@
+{
+  "name": "demobot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "API for travel packages search and booking",
+  "main": "src/api/api_server.js",
+  "scripts": {
+    "start": "node src/api/api_server.js",
+    "dev": "nodemon src/api/api_server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "playwright": "^1.50.1",
+    "playwright-core": "^1.50.1",
+    "agentql": "^1.8.1",
+    "@vercel/node": "^3.0.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  search_form {
+    destination_input
+    dates_input
+    guests_button
+    search_button
+  }
+  search_results {
+    hotels[] {
+      hotel_name
+      price
+      room_type
+      rating
+      hotel_link
+    }
+  }
+} 
